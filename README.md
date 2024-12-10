@@ -19,4 +19,8 @@ This is a more structured script to sniff the network for credentials. This scri
 
   sudo arper.py "Target IP" 192.168.1.254 eth0
 
+- recapper.py
+
+- detector.py
+
 Pcap Processing. These next two scripts, recapper.py and detector.py are for two separate tasks. Recapper.py analyzes a pcap file, locates any images  that are present in the stream in the pcap file and writes those to disk. Detector.py analyzes each of those image files to determine if contains a face. If it does, then the progrma will write the image to disk adding a box around each face in the image.
